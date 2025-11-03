@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# COA Algorithm Visualizer
 
-## Project info
+_Interactive visualizer for Computer Organization & Architecture arithmetic algorithms_
 
-**URL**: https://lovable.dev/projects/cf5fc667-c31e-4cf9-a0e7-e26f31c05ba9
+## Overview
 
-## How can I edit this code?
+COA Algorithm Visualizer is a web-based tool designed to help students and enthusiasts understand various arithmetic algorithms used in Computer Organization & Architecture. It provides detailed, step-by-step visualizations for multiplication and division algorithms, making concepts clear and interactive.
 
-There are several ways of editing your application.
+## Features
+- Visual, animated simulation of key arithmetic hardware algorithms:
+  - Booth's Multiplication
+  - Fast Booth Recoding
+  - Shift-Add Multiplication
+  - Restoring Division
+  - Non-Restoring Division
+- Input parameter controls (bit width, values)
+- Register-by-register visualization and playback
+- Rich narration & step explanations
+- Modern UI with responsive design
 
-**Use Lovable**
+## Demo
+![screenshot](demo-screenshot.png)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cf5fc667-c31e-4cf9-a0e7-e26f31c05ba9) and start prompting.
+## Technologies Used
+- [Vite](https://vitejs.dev/) — fast development server and build tool
+- [React](https://react.dev/) — UI library
+- [TypeScript](https://www.typescriptlang.org/) — type-safe JavaScript
+- [shadcn-ui](https://ui.shadcn.com/) — UI component library
+- [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 16 or above recommended)
+- [npm](https://www.npmjs.com/) package manager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
+1. **Clone the repository:**
+   ```sh
+   git clone <REPO_URL>
+   cd <REPO_DIR>
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+   The app will run locally at `http://localhost:5173` (or as shown in your terminal).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Build for Production
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+### Preview Production Build
+```sh
+npm run preview
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
 
-**Use GitHub Codespaces**
+You can deploy this project on platforms that support static front-end sites, such as Vercel, Netlify, GitHub Pages, etc. Refer to their documentation for deployment steps.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contributing
+- Pull requests are welcome!
+- For major changes, please open an issue first to discuss what you would like to change.
 
-## What technologies are used for this project?
+## License
+MIT (or specify your license here)
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/cf5fc667-c31e-4cf9-a0e7-e26f31c05ba9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Author
+**Sarthak Singh**
