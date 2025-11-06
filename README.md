@@ -18,8 +18,6 @@ COA Algorithm Visualizer is a web-based tool designed to help students and enthu
 - Rich narration & step explanations
 - Modern UI with responsive design
 
-## Demo
-![screenshot](demo-screenshot.png)
 
 ## Technologies Used
 - [Vite](https://vitejs.dev/) — fast development server and build tool
@@ -69,7 +67,7 @@ You can deploy this project on platforms that support static front-end sites, su
 - For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-MIT (or specify your license here)
+MIT LICENSE
 
 ## Author
 **Sarthak Singh**
